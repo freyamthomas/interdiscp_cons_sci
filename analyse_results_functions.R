@@ -1,5 +1,5 @@
 
-
+# new data collected in 2018
 read.in.journal.classifications <- function(n) {
 
     j.list <- list(
