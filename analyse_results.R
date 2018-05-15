@@ -26,7 +26,7 @@ journal.list <- read.in.journal.classifications( n=-1 )
 # Loop through years and disciplines and count the total number of
 # citations each year for each discipline
 journal <- 'biological_conservation_articles'
-results <- count.citations.over.years( years.vec, journal, journal.list )
+results <- count.citations.over.years( years.vec, journal, journal.list[1:3] )
 
 journal <- 'conservation_biology_articles'
 results <- count.citations.over.years( years.vec, journal, journal.list )
