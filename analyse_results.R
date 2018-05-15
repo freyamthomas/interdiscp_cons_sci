@@ -8,8 +8,8 @@ rm(list=ls())
 
 source('analyse_results_functions.R')
 
-years.vec <- 1999:2015
-#years.vec <- 2012:2015
+#years.vec <- 1999:2015
+years.vec <- 2014:2015
 
 # Set this global variable so that when importing the data, strings won't be treated as factors
 options( stringsAsFactors=F )
