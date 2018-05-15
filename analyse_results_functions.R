@@ -11,7 +11,7 @@ read.in.journal.classifications <- function(n) {
       biophysics=read.csv('Data/BIOPHYSICS.csv',nrows=n),
       biotechnologyAppliedMicrobiology=read.csv('Data/BIOTECHNOLOGY&APPLIEDMICROBIOLOGY.csv',nrows=n),
       business=read.csv('Data/BUSINESS.csv',nrows=n),
-      businessFinance=read.csv('Data/BUSINESS,FINANCE.csv',nrows=n),
+      businessFinance=read.csv('Data/BUSINESS-FINANCE.csv',nrows=n),
       cardiacCardiovascularSystems=read.csv('Data/CARDIAC&CARDIOVASCULARSYSTEMS.csv',nrows=n),
       cellTissueEngineering=read.csv('Data/CELL&TISSUEENGINEERING.csv',nrows=n),
       cellBiology=read.csv('Data/CellBiology.csv',nrows=n),
